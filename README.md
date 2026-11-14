@@ -54,7 +54,7 @@ I take AI-native products from business case, PRD, and technical architecture al
 ## Connect
 
 - **LinkedIn:** [linkedin.com/in/britto-thomas-apr1986](https://www.linkedin.com/in/britto-thomas-apr1986/)
-- **Portfolio Site:** `https://iambritto1986.github.io` *(once published)*
+- **Portfolio Site:** [iambritto1986.github.io](https://iambritto1986.github.io)
 - **GitHub:** [@iambritto1986](https://github.com/iambritto1986)
 
 > *Note: Several products above are in active private repositories. Walkthroughs, architecture notes, and live demos are available on request via LinkedIn.*
