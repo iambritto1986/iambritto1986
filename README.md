@@ -42,6 +42,19 @@ I take AI-native products from business case, PRD, and technical architecture al
 
 ---
 
+## Live Public Repositories *(Auto-Synced)*
+
+<!-- AUTO-REPOS:START -->
+| Repository | Description | Primary Stack | Updated |
+| :--- | :--- | :--- | :--- |
+| [Claims_Coda](https://github.com/iambritto1986/Claims_Coda) | Health insurance denial intelligence & appeal workspace | TypeScript | 2026-09-12 |
+| [sb1-kvshuu](https://github.com/iambritto1986/sb1-kvshuu) | PerformancePro organizational performance management | TypeScript | 2024-11-03 |
+| [insights](https://github.com/iambritto1986/insights) | insight generation app | — | 2025-12-01 |
+| [Agentic_Crew](https://github.com/iambritto1986/Agentic_Crew) | Agentic AI | — | 2025-07-19 |
+<!-- AUTO-REPOS:END -->
+
+---
+
 ## Core Capabilities
 
 - **Product & Strategy:** Business Cases, PRDs, TRDs, Information Architecture, Pricing & Positioning

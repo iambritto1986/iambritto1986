@@ -1,0 +1,72 @@
+name: Auto-Sync Public Repositories
+
+on:
+  schedule:
+    - cron: '0 14 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Update public repositories table
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re, urllib.request
+          from pathlib import Path
+
+          req = urllib.request.Request(
+              "https://api.github.com/users/iambritto1986/repos?sort=updated&per_page=100",
+              headers={"User-Agent": "iambritto1986-portfolio-sync"}
+          )
+          with urllib.request.urlopen(req, timeout=20) as resp:
+              repos = json.loads(resp.read().decode("utf-8"))
+
+          skip = {"iambritto1986", "iambritto1986.github.io"}
+          rows = []
+          for r in repos:
+              if r.get("fork") or r.get("name") in skip:
+                  continue
+              name = r["name"]
+              url = r["html_url"]
+              desc = (r.get("description") or "—").replace("|", "\\|").strip()
+              lang = r.get("language") or "—"
+              updated = (r.get("updated_at") or "")[:10]
+              rows.append(f"| [{name}]({url}) | {desc} | {lang} | {updated} |")
+
+          table = "\n".join([
+              "| Repository | Description | Primary Stack | Updated |",
+              "| :--- | :--- | :--- | :--- |",
+              *rows
+          ])
+          block = f"<!-- AUTO-REPOS:START -->\n{table}\n<!-- AUTO-REPOS:END -->"
+
+          readme = Path("README.md")
+          text = readme.read_text(encoding="utf-8")
+          new_text = re.sub(
+              r"<!-- AUTO-REPOS:START -->.*?<!-- AUTO-REPOS:END -->",
+              block,
+              text,
+              flags=re.DOTALL,
+          )
+          if new_text != text:
+              readme.write_text(new_text, encoding="utf-8")
+          PY
+
+      - name: Commit and push if changed
+        run: |
+          if [ -n "$(git status --porcelain README.md)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: auto-sync public repositories"
+            git push
+          fi
