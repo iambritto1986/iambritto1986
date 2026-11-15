@@ -47,10 +47,10 @@ I take AI-native products from business case, PRD, and technical architecture al
 <!-- AUTO-REPOS:START -->
 | Repository | Description | Primary Stack | Updated |
 | :--- | :--- | :--- | :--- |
-| [Claims_Coda](https://github.com/iambritto1986/Claims_Coda) | Health insurance denial intelligence & appeal workspace | TypeScript | 2026-09-12 |
-| [sb1-kvshuu](https://github.com/iambritto1986/sb1-kvshuu) | PerformancePro organizational performance management | TypeScript | 2024-11-03 |
+| [Claims_Coda](https://github.com/iambritto1986/Claims_Coda) | — | TypeScript | 2026-09-12 |
 | [insights](https://github.com/iambritto1986/insights) | insight generation app | — | 2025-12-01 |
 | [Agentic_Crew](https://github.com/iambritto1986/Agentic_Crew) | Agentic AI | — | 2025-07-19 |
+| [sb1-kvshuu](https://github.com/iambritto1986/sb1-kvshuu) | Created with StackBlitz ⚡️ | TypeScript | 2024-11-03 |
 <!-- AUTO-REPOS:END -->
 
 ---
