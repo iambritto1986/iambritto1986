@@ -32,8 +32,8 @@ I take AI-native products from business case, PRD, and technical architecture al
 
 ### 📋 TalonSync / Banana OS — Product Planner & Backlog Prioritization *(Private)*
 **Collaborative backlog prioritization & facilitated workshop board**
-- **What it does:** Converts Excel/CSV project backlogs into live facilitated sessions featuring Priority (`P0–P3`) & Disposition boards, a Value vs. Effort 2×2 matrix, blind Delphi planning poker, multiplayer **Excalidraw** whiteboards with live cursors, webcam **Air Draw** hand-tracking & image sharing, `CompressionStream` URL-safe snapshot sharing, real-time Knock-to-Join room authorization, and an 8-sheet Excel/HTML/Markdown export suite.
-- **Stack:** `React 19` · `TypeScript` · `Express` · `Excalidraw` · `WebSockets` · `Socket.IO` · `Prisma` · `SheetJS (xlsx)` · `Clerk` · `Gemini`
+- **What it does:** Converts Excel/CSV project backlogs into live facilitated sessions featuring Priority (`P0–P3`) & Disposition boards, a Value vs. Effort 2×2 matrix, blind Delphi planning poker, multiplayer **Excalidraw** & **Three.js 3D Spatial** whiteboards (with direct `?board=` share links, One-Euro + 3D `worldLandmarks` **Air Draw**, and magnetically snapping 3D assemblies), `CompressionStream` URL-safe snapshot sharing, real-time Knock-to-Join room authorization, and an 8-sheet Excel/HTML/Markdown export suite.
+- **Stack:** `React 19` · `TypeScript` · `Express` · `Excalidraw` · `Three.js` · `MediaPipe` · `WebSockets` · `Socket.IO` · `Prisma` · `SheetJS (xlsx)` · `Clerk` · `Gemini`
 
 ### 📊 [PerformancePro](https://github.com/iambritto1986/sb1-kvshuu) *(Public)*
 **Organizational performance management, feedback & calibration workspace**
