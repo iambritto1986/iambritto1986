@@ -41,8 +41,8 @@ I take AI-native products from business case, PRD, and technical architecture al
 - **Stack:** `React 18` · `TypeScript` · `Recharts` · `Microsoft MSAL & Graph` · `React Hook Form + Zod` · `Stripe`
 
 ### 🕊️ StillWaters *(Private)*
-**Liquid Glass biblical companion, Golden Cross voice avatar & Social (Beta) for iOS, Android & Web**
-- **What it does:** Opens directly onto a floating daily verse (*"God's blessing for you today"*) with muteable phone notifications, a ChatGPT-style animated **Golden Cross** voice avatar (**ElevenLabs** neural TTS + optional Gemini AI), open Bible chapter/verse lookup, and **Social (Beta)** with verse sharing, prayer meeting events, and **Pastor Teams** church broadcasts.
+**Liquid Glass biblical companion, Divine Golden Cross voice avatar & Social (Beta) for iOS, Android & Web**
+- **What it does:** Opens onto a shared daily floating blessing for all users (with personal mood shifts, muteable daily phone alerts, a top-right Profile & Saved Vault, and comment-ready sharing inside Social or outside apps), a radiant **Divine Golden Cross** voice avatar (**ElevenLabs** neural TTS + mic input + optional Gemini AI), open Bible chapter lookup, and **Social (Beta)** with searchable church/community groups, instant free addition of existing app members, $1/mo seat checkout for new invites, and public group/pastor events.
 - **Stack:** `React Native` · `Expo` · `TypeScript` · `ElevenLabs` · `expo-notifications` · `expo-blur` · `expo-av` · `AsyncStorage` · `Gemini API`
 
 ---
