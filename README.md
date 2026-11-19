@@ -41,9 +41,9 @@ I take AI-native products from business case, PRD, and technical architecture al
 - **Stack:** `React 18` · `TypeScript` · `Recharts` · `Microsoft MSAL & Graph` · `React Hook Form + Zod` · `Stripe`
 
 ### 🕊️ StillWaters *(Private)*
-**Cross-platform daily biblical companion for iOS, Android & Web**
-- **What it does:** Greets users by name and mood (*Tired, Worried, Uncertain, Heavy, Alone, Hopeful*), pairs real-life situations with accurate World English Bible (WEB) verses and plain-English reflections, reads blessings aloud, and supports conversational guidance with offline matching and optional live Gemini AI.
-- **Stack:** `React Native` · `Expo` · `TypeScript` · `expo-speech` · `AsyncStorage` · `Gemini API`
+**Liquid Glass daily biblical companion & Social (Beta) for iOS, Android & Web**
+- **What it does:** Opens straight onto an animated floating daily verse over drifting ambient light orbs, paired with translucent Liquid Glass tabs (`Blessing`, `Talk`, `Social BETA`, `Plans`), spoken `expo-speech` blessings, offline + optional Gemini AI biblical guidance, and a lightweight Name + Email Christian encouragement feed.
+- **Stack:** `React Native` · `Expo` · `TypeScript` · `expo-blur` · `expo-linear-gradient` · `expo-speech` · `AsyncStorage` · `Gemini API`
 
 ---
 
