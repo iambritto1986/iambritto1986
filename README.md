@@ -41,8 +41,8 @@ I take AI-native products from business case, PRD, and technical architecture al
 - **Stack:** `React 18` · `TypeScript` · `Recharts` · `Microsoft MSAL & Graph` · `React Hook Form + Zod` · `Stripe`
 
 ### 🕊️ StillWaters *(Private)*
-**Liquid Glass biblical companion, Divine Golden Cross voice avatar & Facebook-style Social (Beta) for iOS, Android & Web**
-- **What it does:** Keeps the **Open Bible** (with speech voice presets & tap-verse audio) and **Facebook-style Social (Beta)** (left sidebar, Stories, live comments, Cover/Avatar profiles, public prayer Events, and free Group member search/invites) **100% free** to maximize viral traction—while offering a **7-day free trial** of the hero daily floating **Blessing ($1/mo)** and radiant **Divine Golden Cross** voice companion (**$12/mo**, powered by `MediaRecorder`/`expo-av`, ElevenLabs TTS & Gemini multimodal audio).
+**Liquid Glass biblical companion, Divine Golden Cross voice avatar & Facebook-style Christian Social (Beta) for iOS, Android & Web**
+- **What it does:** Keeps the **Open Bible** (speech voice presets & tap-verse audio) and **Facebook-style Christian Social (Beta)** (left sidebar, Stories, live comments, Cover/Avatar user & **Christian Group Profile** pages with Discussion/Members/Events tabs, and free Group member search/invites) **100% free**—paired with a **7-day trial** of the hero daily **Blessing ($1/mo)** and radiant **Divine Golden Cross** voice companion (**$12/mo**) featuring natural conversational phrasing, `MediaRecorder`/`expo-av`, ElevenLabs TTS, browser natural-voice selection & Gemini multimodal audio.
 - **Stack:** `React Native` · `Expo` · `TypeScript` · `ElevenLabs` · `expo-notifications` · `expo-blur` · `expo-av` · `AsyncStorage` · `Gemini API`
 
 ---
