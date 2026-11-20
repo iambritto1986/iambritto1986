@@ -43,7 +43,7 @@ I take AI-native products from business case, PRD, and technical architecture al
 ### 🕊️ StillWaters *(Private)*
 **Liquid Glass biblical companion, Divine Golden Cross voice avatar & Facebook-style Christian Social (Beta) for iOS, Android & Web**
 - **What it does:** Keeps the **Open Bible** (speech voice presets & tap-verse audio) and **Facebook-style Christian Social (Beta)** (left sidebar, Stories, live comments, Cover/Avatar user & **Christian Group Profile** pages with Discussion/Members/Events tabs, and free Group member search/invites) **100% free**—paired with a **7-day trial** of the hero daily **Blessing ($1/mo)** and radiant **Divine Golden Cross** voice companion (**$12/mo**) featuring natural conversational phrasing, `MediaRecorder`/`expo-av`, ElevenLabs TTS, browser natural-voice selection & Gemini multimodal audio.
-- **Stack:** `React Native` · `Expo` · `TypeScript` · `ElevenLabs` · `expo-notifications` · `expo-blur` · `expo-av` · `AsyncStorage` · `Gemini API`
+- **Stack:** `React Native` · `Expo SDK 58` · `TypeScript` · `expo-audio` · `expo-image-picker` · `expo-notifications` · `expo-blur` · `ElevenLabs` · `AsyncStorage` · `Gemini API`
 
 ---
 
