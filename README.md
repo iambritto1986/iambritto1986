@@ -1,4 +1,4 @@
-﻿# Hi, I'm Britto Thomas 👋
+# Hi, I'm Britto Thomas 👋
 
 **Product & AI Systems Builder** · **Chicago, IL**  
 Experience across **McKinsey**, **Uber Tech**, and **AVMA** · Building under **Singularity Insight**
