@@ -52,6 +52,7 @@ I take AI-native products from business case, PRD, and technical architecture al
 <!-- AUTO-REPOS:START -->
 | Repository | Description | Primary Stack | Updated |
 | :--- | :--- | :--- | :--- |
+| [Singularity](https://github.com/iambritto1986/Singularity) | — | — | 2026-11-26 |
 | [Claims_Coda](https://github.com/iambritto1986/Claims_Coda) | — | TypeScript | 2026-09-12 |
 | [Agentic_Crew](https://github.com/iambritto1986/Agentic_Crew) | Agentic AI | — | 2025-07-19 |
 <!-- AUTO-REPOS:END -->
